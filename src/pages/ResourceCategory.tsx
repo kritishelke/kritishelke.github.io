@@ -150,7 +150,7 @@ const ResourceCategory = () => {
                         rel="noopener noreferrer"
                         className="block group"
                       >
-                        <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors duration-200">
+                        <h3 className="font-semibold text-gray-900 dark:text-gray-100 group-hover:text-primary transition-colors duration-200">
                           {item.title}
                         </h3>
                         {item.description && (
@@ -159,7 +159,7 @@ const ResourceCategory = () => {
                       </a>
                     ) : (
                       <div>
-                        <h3 className="font-semibold text-foreground">{item.title}</h3>
+                        <h3 className="font-semibold text-gray-900 dark:text-gray-100">{item.title}</h3>
                         {item.description && (
                           <p className="text-muted-foreground text-sm mt-2">{item.description}</p>
                         )}
