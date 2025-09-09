@@ -28,9 +28,9 @@ const Index = () => {
   ];
 
   const youtube = [
-    { title: "'Quant'ify your career", url: "https://www.youtube.com/@QuantifyYourCareer"},
-    { title: "QuantPy", url: "https://www.youtube.com/@QuantPy"},
-    { title: "3Blue1Brown", url: "https://www.youtube.com/@3blue1brown" },
+    { title: "'Quant'ify your career"},
+    { title: "QuantPy"},
+    { title: "3Blue1Brown"},
   ];
 
   const notes = [
