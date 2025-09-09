@@ -34,6 +34,7 @@ export const ResourceCard = ({ title, icon, items, categorySlug }: ResourceCardP
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
                   className="flex items-center gap-2 text-gray-900 dark:text-gray-100 hover:text-primary transition-colors duration-200 text-sm leading-relaxed"
                 >
                   <span className="group-hover:underline">{item.title}</span>
