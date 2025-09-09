@@ -120,7 +120,7 @@ const ResourceCategory = () => {
       <header className="bg-gradient-hero text-primary-foreground py-12">
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-block mb-4">
-            <Button variant="secondary" size="sm">
+            <Button variant="secondary" size="sm" className="text-gray-900 dark:text-gray-100">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to All Resources
             </Button>
