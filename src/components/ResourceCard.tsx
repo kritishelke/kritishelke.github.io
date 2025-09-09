@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
-import { Link } from "react-router-dom";
 
 interface ResourceItem {
   title: string;
@@ -15,10 +14,10 @@ interface ResourceCardProps {
   categorySlug: string;
 }
 
-export const ResourceCard = ({ title, icon, items, categorySlug }: ResourceCardProps) => {
+export const ResourceCard = ({ title, icon, items }: ResourceCardProps) => {
   return (
-    <Link to={`/${categorySlug}`} className="block h-full">
-      <Card className="h-full shadow-card hover:shadow-elegant transition-all duration-300 bg-gradient-card border-border cursor-pointer">
+    <div className="block h-full">
+      <Card className="h-full shadow-card hover:shadow-elegant transition-all duration-300 bg-gradient-card border-border">
         <CardHeader className="pb-4">
           <CardTitle className="flex items-center gap-3 text-xl text-primary">
             {icon}
@@ -51,6 +50,6 @@ export const ResourceCard = ({ title, icon, items, categorySlug }: ResourceCardP
         </ul>
       </CardContent>
       </Card>
-    </Link>
+    </div>
   );
 };

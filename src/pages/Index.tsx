@@ -55,7 +55,7 @@ const Index = () => {
               Quantitative Finance Learning Resources
             </h1>
             <p className="text-lg opacity-90 leading-relaxed max-w-2xl mx-auto">
-              A comprehensive collection of books, courses, practice questions, and tools to master quantitative finance and trading
+              I'm Kriti Shelke, a third-year physics major at UVA interested in pursuing a master's in Quantitative Finance. This site brings together resources I use to strengthen my foundations in math, finance, and coding — useful for learning core concepts, understanding markets, and preparing for quant roles.
             </p>
           </div>
         </div>
