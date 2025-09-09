@@ -12,41 +12,30 @@ const Index = () => {
   ];
 
   const courses = [
-    { title: "Texas Hold'em Poker" },
-    { title: "Topics in Mathematics with Applications in Finance" },
-    { title: "Financial Engineering & Risk Management (Columbia, Coursera)" },
-    { title: "Mathematics for Machine Learning (Imperial College, Coursera)" },
+    { title: "MIT OpenCourseWare: Topics in Mathematics with Applications in Finance", url: "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/" },
     { title: "Machine Learning for Trading (Georgia Tech / Udacity)" },
-    { title: "QuantNet Pre-MFE Resources" },
-    { title: "MIT OpenCourseWare: Stochastic Processes, Probability & Random Variables" }
+    { title: "QuantNet Pre-MFE Resources" }, 
+    { title: "MIT OpenCourseWare: Stochastic Processes, Probability & Random Variables", url: "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/resources/stochastic-processes/" }
   ];
 
   const practice = [
     { title: "A Practical Guide to Quantitative Finance Interviews – Xinfeng Zhou", url: "https://academyflex.com/wp-content/uploads/2024/03/a-practical-guide-to-quantitative-finance-interviews.pdf" },
-    { title: "QuantGuide Interview Questions" },
-    { title: "Trading Interview Market Making Game" },
-    { title: "TraderMath (Math Practice)" },
-    { title: "Brainstellar Questions" },
-    { title: "Project Euler" },
-    { title: "LeetCode / HackerRank" },
-    { title: "Heard on The Street – Timothy Crack" },
-    { title: "Green Book (Trading Interview Questions)" }
+    { title: "QuantGuide Interview Questions", url: "https://www.quantguide.io/" },
+    { title: "Trading Interview Market Making Game", url: "https://www.tradinginterview.com/market-making-games/" },
+    { title: "TraderMath (Math Practice)", url: "https://www.tradermath.org/" },
+    { title: "Project Euler", url: "https://projecteuler.net/about" },
+    { title: "LeetCode" },
   ];
 
   const youtube = [
     { title: "'Quant'ify your career" },
     { title: "QuantPy" },
     { title: "3Blue1Brown" },
-    { title: "Patrick Boyle" },
     { title: "QuantInsti" }
   ];
 
   const notes = [
-    { title: "Personal study notes" },
-    { title: "Interview preparation" },
-    { title: "Key concepts summary" },
-    { title: "Practice problem solutions" },
-    { title: "Research ideas" }
+    { title: "Quant Prep Drive", url: "https://drive.google.com/drive/folders/1JXrF169f5E6VPA8M4mOLRnUqTZD0lkOT?usp=sharing" },
   ];
 
   const news = [
