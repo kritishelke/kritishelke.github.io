@@ -13,8 +13,8 @@ const Index = () => {
 
   const courses = [
     { title: "MIT OpenCourseWare: Topics in Mathematics with Applications in Finance", url: "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/" },
-    { title: "Machine Learning for Trading (Georgia Tech / Udacity)" },
-    { title: "QuantNet Pre-MFE Resources" }, 
+    { title: "QuantInsti", url: "https://quantra.quantinsti.com/" },
+    { title: "QuantStart", url: "https://www.quantstart.com/" }, 
     { title: "MIT OpenCourseWare: Stochastic Processes, Probability & Random Variables", url: "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/resources/stochastic-processes/" }
   ];
 
