@@ -19,7 +19,7 @@ const Index = () => {
   ];
 
   const practice = [
-    { title: "A Practical Guide to Quantitative Finance Interviews – Xinfeng Zhou", url: "https://academyflex.com/wp-content/uploads/2024/03/a-practical-guide-to-quantitative-finance-interviews.pdf" },
+    { title: "A Practical Guide to Quantitative Finance Interviews – Xinfeng Zhou" },
     { title: "QuantGuide Interview Questions", url: "https://www.quantguide.io/" },
     { title: "Trading Interview Market Making Game", url: "https://www.tradinginterview.com/market-making-games/" },
     { title: "TraderMath (Math Practice)", url: "https://www.tradermath.org/" },
