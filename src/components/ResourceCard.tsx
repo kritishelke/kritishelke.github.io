@@ -34,13 +34,13 @@ export const ResourceCard = ({ title, icon, items, categorySlug }: ResourceCardP
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-900 dark:text-gray-100 hover:text-primary transition-colors duration-200 text-sm leading-relaxed"
+                  className="flex items-center gap-2 text-foreground hover:text-primary transition-colors duration-200 text-sm leading-relaxed"
                 >
                   <span className="group-hover:underline">{item.title}</span>
                   <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                 </a>
               ) : (
-                <span className="text-gray-900 dark:text-gray-100 text-sm leading-relaxed">{item.title}</span>
+                <span className="text-foreground text-sm leading-relaxed">{item.title}</span>
               )}
               {item.description && (
                 <p className="text-muted-foreground text-xs mt-1 ml-4">{item.description}</p>
