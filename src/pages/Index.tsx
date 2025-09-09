@@ -24,7 +24,7 @@ const Index = () => {
     { title: "Trading Interview Market Making Game", url: "https://www.tradinginterview.com/market-making-games/" },
     { title: "TraderMath (Math Practice)", url: "https://www.tradermath.org/" },
     { title: "Project Euler", url: "https://projecteuler.net/about" },
-    { title: "LeetCode" url: "https://leetcode.com/" },
+    { title: "LeetCode", url: "https://leetcode.com/" },
   ];
 
   const youtube = [
