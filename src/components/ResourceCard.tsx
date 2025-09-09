@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ResourceItem {
   title: string;
@@ -11,17 +12,19 @@ interface ResourceCardProps {
   title: string;
   icon: React.ReactNode;
   items: ResourceItem[];
+  categorySlug: string;
 }
 
-export const ResourceCard = ({ title, icon, items }: ResourceCardProps) => {
+export const ResourceCard = ({ title, icon, items, categorySlug }: ResourceCardProps) => {
   return (
-    <Card className="h-full shadow-card hover:shadow-elegant transition-all duration-300 bg-gradient-card border-border">
-      <CardHeader className="pb-4">
-        <CardTitle className="flex items-center gap-3 text-xl text-primary">
-          {icon}
-          {title}
-        </CardTitle>
-      </CardHeader>
+    <Link to={`/${categorySlug}`} className="block h-full">
+      <Card className="h-full shadow-card hover:shadow-elegant transition-all duration-300 bg-gradient-card border-border cursor-pointer">
+        <CardHeader className="pb-4">
+          <CardTitle className="flex items-center gap-3 text-xl text-primary">
+            {icon}
+            {title}
+          </CardTitle>
+        </CardHeader>
       <CardContent>
         <ul className="space-y-3">
           {items.map((item, index) => (
@@ -46,6 +49,7 @@ export const ResourceCard = ({ title, icon, items }: ResourceCardProps) => {
           ))}
         </ul>
       </CardContent>
-    </Card>
+      </Card>
+    </Link>
   );
 };

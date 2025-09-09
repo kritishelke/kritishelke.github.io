@@ -90,36 +90,42 @@ const Index = () => {
               title="Books"
               icon={<BookOpen className="h-6 w-6" />}
               items={books}
+              categorySlug="books"
             />
             
             <ResourceCard
               title="Online Courses"
               icon={<PlayCircle className="h-6 w-6" />}
               items={courses}
+              categorySlug="courses"
             />
             
             <ResourceCard
               title="Practice Questions"
               icon={<Brain className="h-6 w-6" />}
               items={practice}
+              categorySlug="practice"
             />
             
             <ResourceCard
               title="YouTube Channels"
               icon={<Youtube className="h-6 w-6" />}
               items={youtube}
+              categorySlug="youtube"
             />
             
             <ResourceCard
               title="Programming Tools"
               icon={<Code className="h-6 w-6" />}
               items={tools}
+              categorySlug="tools"
             />
             
             <ResourceCard
               title="News & Market Resources"
               icon={<Newspaper className="h-6 w-6" />}
               items={news}
+              categorySlug="news"
             />
           </div>
         </div>
