@@ -68,14 +68,14 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="bg-gradient-hero text-primary-foreground py-20">
+      <section className="bg-gradient-hero text-primary-foreground py-12">
         <div className="container mx-auto px-4 text-center">
-          <div className="max-w-4xl mx-auto">
-            <TrendingUp className="h-16 w-16 mx-auto mb-6 opacity-90" />
-            <h1 className="text-5xl font-bold mb-6 leading-tight">
+          <div className="max-w-3xl mx-auto">
+            <TrendingUp className="h-12 w-12 mx-auto mb-4 opacity-90" />
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
               Quantitative Finance Learning Resources
             </h1>
-            <p className="text-xl opacity-90 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-lg opacity-90 leading-relaxed max-w-2xl mx-auto">
               A comprehensive collection of books, courses, practice questions, and tools to master quantitative finance and trading
             </p>
           </div>
