@@ -114,7 +114,7 @@ const Index = () => {
       <footer className="bg-secondary py-12 mt-16">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            Curated resources for quantitative finance professionals and students
+            Curated resources for quantitative finance students
           </p>
         </div>
       </footer>
