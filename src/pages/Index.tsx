@@ -1,9 +1,8 @@
 import { ResourceCard } from "@/components/ResourceCard";
-import { BookOpen, PlayCircle, Brain, Youtube, Code, Newspaper, TrendingUp } from "lucide-react";
+import { BookOpen, PlayCircle, Brain, Youtube, StickyNote, Newspaper, TrendingUp } from "lucide-react";
 
 const Index = () => {
   const books = [
-    { title: "A Practical Guide to Quantitative Finance Interviews – Xinfeng Zhou" },
     { title: "A Collection of Dice Problems" },
     { title: "Fifty Challenging Problems in Probability" },
     { title: "Jane Street's Probability and Markets Guide" },
@@ -26,6 +25,7 @@ const Index = () => {
   ];
 
   const practice = [
+    { title: "A Practical Guide to Quantitative Finance Interviews – Xinfeng Zhou" },
     { title: "QuantGuide Interview Questions" },
     { title: "Trading Interview Market Making Game" },
     { title: "TraderMath (Math Practice)" },
@@ -44,19 +44,12 @@ const Index = () => {
     { title: "QuantInsti" }
   ];
 
-  const tools = [
-    { title: "Python" },
-    { title: "Pandas" },
-    { title: "NumPy" },
-    { title: "Scikit-learn" },
-    { title: "Matplotlib" },
-    { title: "Jupyter Notebooks" },
-    { title: "C++ (heavier coding required quant roles)" },
-    { title: "SQL" },
-    { title: "Git / GitHub" },
-    { title: "TensorFlow / PyTorch" },
-    { title: "Excel/VBA" },
-    { title: "R" }
+  const notes = [
+    { title: "Personal study notes" },
+    { title: "Interview preparation" },
+    { title: "Key concepts summary" },
+    { title: "Practice problem solutions" },
+    { title: "Research ideas" }
   ];
 
   const news = [
@@ -115,10 +108,10 @@ const Index = () => {
             />
             
             <ResourceCard
-              title="Programming Tools"
-              icon={<Code className="h-6 w-6" />}
-              items={tools}
-              categorySlug="tools"
+              title="My Notes"
+              icon={<StickyNote className="h-6 w-6" />}
+              items={notes}
+              categorySlug="notes"
             />
             
             <ResourceCard
