@@ -24,14 +24,13 @@ const Index = () => {
     { title: "Trading Interview Market Making Game", url: "https://www.tradinginterview.com/market-making-games/" },
     { title: "TraderMath (Math Practice)", url: "https://www.tradermath.org/" },
     { title: "Project Euler", url: "https://projecteuler.net/about" },
-    { title: "LeetCode" },
+    { title: "LeetCode" url: "https://leetcode.com/" },
   ];
 
   const youtube = [
-    { title: "'Quant'ify your career" },
-    { title: "QuantPy" },
-    { title: "3Blue1Brown" },
-    { title: "QuantInsti" }
+    { title: "'Quant'ify your career", url: "www.youtube.com/@QuantifyYourCareer"},
+    { title: "QuantPy", url: "www.youtube.com/@QuantPy"},
+    { title: "3Blue1Brown", url:"www.youtube.com/@3blue1brown" },
   ];
 
   const notes = [
@@ -39,9 +38,9 @@ const Index = () => {
   ];
 
   const news = [
-    { title: "Bloomberg Market Concepts (BMC) – certification" },
-    { title: "Wall Street Journal / Financial Times" },
-    { title: "Risk.net" }
+    { title: "Wall Street Journal", url: "https://www.wsj.com/?gaa_at=eafs&gaa_n=ASWzDAgCHq_kyRuPVJP2dSqAPN3Z4d6jQQHuoYFKONTBg3HrQGXjn7cwu_QrvPKl0ok%3D&gaa_ts=68c06048&gaa_sig=fYzvtVxBUKVOJ_LUuiFGUi-HdFb3YeXLL0XG-Sr2UJvAwnRAL_ha8onrqYfO3pvyHy62KkIVmjjJvX91YwHwwQ%3D%3D"  },
+    { title: "Financial Times", url: "https://www.ft.com/?&segmentID=2994e0f6-4f2f-7434-39eb-e1da3662b996&gclsrc=aw.ds&gad_source=1&gad_campaignid=20969889019&gbraid=0AAAAAC_ArBvE-9Of776bDGM0Cl-xzbsff&gclid=Cj0KCQjwoP_FBhDFARIsANPG24NtKh-8Lt2Afggfrg6uV9EZ1KrBRpmn8RB-wghT5JkPz3KLDY-Rp0gaAvdDEALw_wcB"}, 
+    { title: "Risk.net", url: "https://www.risk.net/" }
   ];
 
   return (
